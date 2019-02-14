@@ -1,0 +1,84 @@
+body{
+     margin:0;
+     padding:0;
+     font-family: 'Montserrat', sans-serif;
+}
+*{
+     box-sizing: border-box;
+}
+span.text02{
+     color:blue;
+     font-size:20px;
+     font-weight: bold;
+}
+span.text03{
+     color:#4B4A4E;
+     font-weight: bold;
+     font-size:20px;
+}
+header#bannerimage{
+     height: 100vh;
+     background: url(12.jpeg) center center;
+     background-size: 100% 100%;
+     background-repeat: no-repeat;
+     background-attachment: scroll;
+     width:100%;
+     padding-top: 70px;
+}
+header h2{
+     color: #D3D3D3;
+}
+span{
+     color:blue;
+}
+.page-section{
+     background-color: #f9f9f9;
+}
+#seperator{
+     border-bottom:3px solid red;
+     width:100px;
+     margin:auto;
+}
+.text{
+     text-align:justify;
+     padding-top:30px;
+     line-height: 2.0;
+}
+#carousel-example-2{
+     padding-top:20px;
+     
+}
+/*     PAGE-TOP       */
+.scroll-top{
+     text-align:center;
+     
+     
+}
+/*    CONTACT SESSION */
+.container-fluid{
+     margin-top: 0;
+     background-color:#3b404c;
+     color:#fff;
+     padding-top:50px;
+}
+.container-fluid h2{
+color:#fff;
+
+}
+.row{
+padding-top:30px;
+}
+.row .btn{
+margin-bottom:50px;
+}
+/*    FOOTER  */
+
+.jumbotron{
+     height:10px;
+     background-color:f9f9f9;
+     margin-bottom:0;
+     text-align:center;
+}
+span.name{
+     color:green;
+}
