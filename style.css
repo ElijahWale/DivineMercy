@@ -6,6 +6,9 @@ body{
 *{
      box-sizing: border-box;
 }
+.navbar-brand{
+     margin-left:20px;
+}
 span.text02{
      color:blue;
      font-size:20px;
@@ -18,18 +21,17 @@ span.text03{
 }
 header#bannerimage{
      height: 100vh;
-     background: url(12.jpeg) center center;
-     background-size: 100% 100%;
+     background: url(bghead.jpg) center center;
+     background-size: cover;
      background-repeat: no-repeat;
      background-attachment: scroll;
-     width:100%;
      padding-top: 70px;
 }
 header h2{
      color: #D3D3D3;
 }
 span{
-     color:blue;
+     color:#4B4A4E;
 }
 .page-section{
      background-color: #f9f9f9;
@@ -45,13 +47,8 @@ span{
      line-height: 2.0;
 }
 #carousel-example-2{
-     padding-top:20px;
-     
-}
-/*     PAGE-TOP       */
-.scroll-top{
-     text-align:center;
-     
+     margin-top:40px;
+     margin-bottom:30px;
      
 }
 /*    CONTACT SESSION */
@@ -77,7 +74,6 @@ margin-bottom:50px;
      height:10px;
      background-color:f9f9f9;
      margin-bottom:0;
-     text-align:center;
 }
 span.name{
      color:green;
